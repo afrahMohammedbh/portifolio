@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Afrah Mohammed — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="logo">afrah<span>.</span></div>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#papers">Papers</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="blobs">
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="blob b3"></div>
+    </div>
+    <div class="hero-inner">
+      <div class="hero-left">
+        <p class="eyebrow reveal-up">Hello, I'm</p>
+        <h1 class="hero-name reveal-up" style="--d:.08s">
+          Afrah<br><em>Mohammed</em>
+        </h1>
+        <p class="hero-role reveal-up" style="--d:.18s">
+          <span id="typed"></span><span class="cursor">|</span>
+        </p>
+        <p class="hero-tagline reveal-up" style="--d:.26s">
+          CS student at Effat University — turning data into decisions &amp; building things on the web.
+        </p>
+        <div class="hero-cta reveal-up" style="--d:.34s">
+          <a href="#projects" class="btn-fill">See My Work</a>
+          <a href="#contact" class="btn-outline">Let's Talk</a>
+        </div>
+        <div class="hero-numbers reveal-up" style="--d:.42s">
+          <div class="hn"><strong>4+</strong><span>Projects</span></div>
+          <div class="hn-sep"></div>
+          <div class="hn"><strong>3</strong><span>Papers</span></div>
+          <div class="hn-sep"></div>
+          <div class="hn"><strong>11+</strong><span>Courses</span></div>
+        </div>
+      </div>
+      <div class="hero-right reveal-right" style="--d:.1s">
+        <div class="photo-wrap">
+          <img src="images/profile.jpg" alt="Afrah Mohammed">
+          <div class="photo-glow"></div>
+          <div class="open-badge"><span class="green-dot"></span>Open to Work</div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="scroll down">
+      <div class="sc-arrow"></div>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="wrap">
+      <p class="sec-label reveal-up">About</p>
+      <h2 class="sec-heading reveal-up">Who I Am</h2>
+      <div class="about-grid">
+        <div class="about-left reveal-left">
+          <p class="about-bio">
+            I'm a CS student who loves <strong>finding stories in data</strong>, thinking through business problems, and building things on the web. I'm still growing in all three — but I'm curious, committed, and always learning.
+          </p>
+          <div class="about-pills">
+            <span>🎓 Effat University</span>
+            <span>📍 Jeddah, KSA</span>
+            <span>🔍 Seeking Internships</span>
+          </div>
+          <div class="edu-card">
+            <span class="edu-emoji">🎓</span>
+            <div>
+              <strong>B.S. Computer Science</strong>
+              <p>Effat University · 2023 – Present</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-right reveal-right">
+          <p class="courses-title">Key Courses</p>
+          <div class="course-pills">
+            <span class="cp hot">Data Science</span>
+            <span class="cp hot">Machine Learning</span>
+            <span class="cp hot">Web App Development</span>
+            <span class="cp hot">Database Systems</span>
+            <span class="cp">Artificial Intelligence</span>
+            <span class="cp">Software Engineering</span>
+            <span class="cp">Data Structures</span>
+            <span class="cp">OOP</span>
+            <span class="cp">Computer Networks</span>
+            <span class="cp">Operating Systems</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt">
+    <div class="wrap">
+      <p class="sec-label reveal-up">Capabilities</p>
+      <h2 class="sec-heading reveal-up">What I Bring</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card featured reveal-up" style="--d:0s">
+          <div class="sk-top">
+            <span class="sk-emoji">📊</span>
+            <h3>Business Analytics</h3>
+          </div>
+          <p>Translating business questions into structured analysis — requirements, process flows, stakeholder needs, reporting.</p>
+          <div class="sk-pills">
+            <span>Requirements Gathering</span>
+            <span>Process Mapping</span>
+            <span>BI Reporting</span>
+            <span>Stakeholder Analysis</span>
+          </div>
+        </div>
+
+        <div class="skill-card featured reveal-up" style="--d:.08s">
+          <div class="sk-top">
+            <span class="sk-emoji">📈</span>
+            <h3>Data Analysis</h3>
+          </div>
+          <p>Exploring datasets, spotting trends, and building visuals that make data easy to understand.</p>
+          <div class="sk-pills">
+            <span>Python · Pandas</span>
+            <span>Data Visualisation</span>
+            <span>Statistical Analysis</span>
+            <span>Jupyter · Colab</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" style="--d:.16s">
+          <div class="sk-top">
+            <span class="sk-emoji">🌐</span>
+            <h3>Web Development</h3>
+          </div>
+          <div class="sk-pills">
+            <span>HTML &amp; CSS</span>
+            <span>JavaScript</span>
+            <span>FastAPI</span>
+            <span>REST APIs</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" style="--d:.24s">
+          <div class="sk-top">
+            <span class="sk-emoji">🗄️</span>
+            <h3>Databases</h3>
+          </div>
+          <div class="sk-pills">
+            <span>MySQL</span>
+            <span>PostgreSQL</span>
+            <span>Firebase</span>
+            <span>SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" style="--d:.32s">
+          <div class="sk-top">
+            <span class="sk-emoji">🔧</span>
+            <h3>Tools</h3>
+          </div>
+          <div class="sk-pills">
+            <span>Git &amp; GitHub</span>
+            <span>VS Code</span>
+            <span>Figma</span>
+            <span>Google Colab</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="wrap">
+      <p class="sec-label reveal-up">Work</p>
+      <h2 class="sec-heading reveal-up">Projects</h2>
+      <div class="proj-grid">
+
+        <div class="proj-card reveal-up" style="--d:0s">
+          <div class="proj-imgs two">
+            <img src="images/dar1.png" alt="Darb UI">
+            <img src="images/dar2.png" alt="Darb UI 2">
+          </div>
+          <div class="proj-body">
+            <div class="proj-top">
+              <h3>Darb</h3>
+              <div class="proj-badges">
+                <span class="pb rose">AI</span>
+                <span class="pb">Tourism</span>
+                <span class="pb purple">Zero-Trust</span>
+              </div>
+            </div>
+            <p>AI-powered tourism platform connecting tourists with verified local drivers across Saudi Arabia — smart recommendations, zero-trust security, curated itineraries.</p>
+            <div class="proj-tech"><span>Python</span><span>ML</span><span>Data Analysis</span></div>
+            <a href="https://github.com/afrahMohammedbh/Darb" target="_blank" class="proj-link">View on GitHub →</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal-up" style="--d:.1s">
+          <div class="proj-imgs two">
+            <img src="images/login.png" alt="Baddel Login">
+            <img src="images/home.png" alt="Baddel Dashboard">
+          </div>
+          <div class="proj-body">
+            <div class="proj-top">
+              <h3>Baddel ♻️</h3>
+              <div class="proj-badges">
+                <span class="pb rose">AI</span>
+                <span class="pb green">Sustainability</span>
+              </div>
+            </div>
+            <p>Item exchange platform using computer vision (YOLOv8) to classify donated items. Users earn points redeemable for Noon, IKEA, and more.</p>
+            <div class="proj-tech"><span>Python</span><span>YOLOv8</span><span>FastAPI</span></div>
+            <a href="https://github.com/afrahMohammedbh/Baddel/tree/main" target="_blank" class="proj-link">View on GitHub →</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal-up" style="--d:.2s">
+          <div class="proj-imgs two">
+            <img src="images/ot2.png" alt="OtakuMeter Home">
+            <img src="images/ot1.png" alt="OtakuMeter Series">
+          </div>
+          <div class="proj-body">
+            <div class="proj-top">
+              <h3>OtakuMeter</h3>
+              <div class="proj-badges">
+                <span class="pb blue">Web App</span>
+              </div>
+            </div>
+            <p>Full-featured anime tracking platform — browse, rate on a 10-star scale, maintain watchlists, and discover weekly Top 10 with secure auth.</p>
+            <div class="proj-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>DB</span></div>
+            <a href="https://github.com/afrahMohammedbh/Otakometer" target="_blank" class="proj-link">View on GitHub →</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal-up" style="--d:.3s">
+          <div class="proj-imgs two">
+            <img src="images/hos2.png" alt="HealZone Records">
+            <img src="images/hos1.png" alt="HealZone UI">
+          </div>
+          <div class="proj-body">
+            <div class="proj-top">
+              <h3>HealZone</h3>
+              <div class="proj-badges">
+                <span class="pb purple">System Design</span>
+              </div>
+            </div>
+            <p>Hospital management system for patient records, ER triage, and treatment docs — real-time entry, patient ID tracking, and clinical workflow.</p>
+            <div class="proj-tech"><span>Python</span><span>Database</span></div>
+            <a href="https://github.com/afran-m13/Hospital-Management-System" target="_blank" class="proj-link">View on GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PAPERS -->
+  <section id="papers" class="section alt">
+    <div class="wrap">
+      <p class="sec-label reveal-up">Research</p>
+      <h2 class="sec-heading reveal-up">Published Papers</h2>
+      <div class="papers-list">
+
+        <a class="paper-row reveal-up" style="--d:0s"
+           href="https://www.researchgate.net/publication/404191649_Design_Patterns_vs_Anti-Patterns_in_Security"
+           target="_blank" rel="noopener">
+          <span class="p-num">01</span>
+          <div class="p-info">
+            <h3>Design Patterns vs Anti-Patterns in Security</h3>
+            <p>Best practices and pitfalls in building secure software systems.</p>
+          </div>
+          <span class="p-arr">↗</span>
+        </a>
+
+        <a class="paper-row reveal-up" style="--d:.1s"
+           href="https://www.researchgate.net/publication/404191567_Darb_AI-Driven_Tourism_Platform_with_Secure_Driver_Verification_and_Smart_Tour_Planning"
+           target="_blank" rel="noopener">
+          <span class="p-num">02</span>
+          <div class="p-info">
+            <h3>Darb: AI-Driven Tourism Platform</h3>
+            <p>Zero-trust security meets AI-based tour planning for Saudi tourism.</p>
+          </div>
+          <span class="p-arr">↗</span>
+        </a>
+
+        <a class="paper-row reveal-up" style="--d:.2s"
+           href="https://www.researchgate.net/publication/404191475_AI-Based_Travel_Recommendation_System_Using_Persona_Modeling"
+           target="_blank" rel="noopener">
+          <span class="p-num">03</span>
+          <div class="p-info">
+            <h3>AI Travel Recommendations via Persona Modeling</h3>
+            <p>Personalised suggestions adapting dynamically to individual user profiles.</p>
+          </div>
+          <span class="p-arr">↗</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-bg">
+    <div class="wrap">
+      <p class="sec-label reveal-up">Get In Touch</p>
+      <h2 class="sec-heading reveal-up">Let's Connect</h2>
+      <p class="contact-sub reveal-up">Open to internships, collaborations, and new opportunities.</p>
+
+      <div class="contact-grid">
+
+        <div class="c-form reveal-left">
+          <form id="contactForm" novalidate>
+            <div class="f-row">
+              <div class="fg">
+                <label>Name</label>
+                <input type="text" placeholder="Your name" required>
+              </div>
+              <div class="fg">
+                <label>Email</label>
+                <input type="email" placeholder="you@email.com" required>
+              </div>
+            </div>
+            <div class="fg">
+              <label>Message</label>
+              <textarea placeholder="Say hi, share an opportunity, or just connect 👋" required></textarea>
+            </div>
+            <button type="submit" class="btn-send">
+              <span class="bs-text">Send Message</span>
+              <span class="bs-icon">✈️</span>
+            </button>
+          </form>
+        </div>
+
+        <div class="c-info reveal-right">
+          <a class="c-link" href="mailto:afrahmohammed.bh@gmail.com">
+            <div class="cl-icon">✉️</div>
+            <div class="cl-text">
+              <strong>Email</strong>
+              <p>afrahmohammed.bh@gmail.com</p>
+            </div>
+            <span class="cl-arr">→</span>
+          </a>
+          <a class="c-link" href="https://www.linkedin.com/in/afrah-mohammed-369a2a349" target="_blank" rel="noopener">
+            <div class="cl-icon">💼</div>
+            <div class="cl-text">
+              <strong>LinkedIn</strong>
+              <p>Connect professionally</p>
+            </div>
+            <span class="cl-arr">→</span>
+          </a>
+          <a class="c-link" href="https://github.com/afrahMohammedbh" target="_blank" rel="noopener">
+            <div class="cl-icon">🐙</div>
+            <div class="cl-text">
+              <strong>GitHub</strong>
+              <p>@afrahMohammedbh</p>
+            </div>
+            <span class="cl-arr">→</span>
+          </a>
+          <div class="avail">
+            <span class="avail-dot"></span>
+            Available for internships
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Built by <strong>Afrah Mohammed</strong> · © 2026</p>
+    <p class="f-sub">Data &amp; Business Analytics · Web Development · Effat University · Jeddah, KSA</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
